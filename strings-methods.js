@@ -7,8 +7,8 @@ slice()
 replace()
 includes()
 */
-console.log(nombre.endsWith("e"));
-console.log(nombre.lastIndexOf("o"));
-console.log(nombre.slice(0, 3));
-console.log(nombre.replace("e", "ito"));
-console.log(nombre.includes("J"));
+console.log(nombre.endsWith("e")); // True
+console.log(nombre.lastIndexOf("o")); // 1
+console.log(nombre.slice(0, 3)); // "Jor"
+console.log(nombre.replace("e", "ito")); // "Jorgito"
+console.log(nombre.includes("J")); // true
