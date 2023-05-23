@@ -1,5 +1,11 @@
 "use strict";
-const id_session = 110205;
-let username = "Jorge";
+const id_session = 110205; // number
+let username = "Jorge"; // string
 username = "Jorge Osvaldo";
-console.log(` id: ${id_session}\n username: ${username}`);
+let estado = true; // boolean
+
+console.log(
+  ` id: ${id_session}\n username: ${username}\n estado: ${
+    estado ? "activo" : "inactivo"
+  }`
+);
