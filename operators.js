@@ -1,5 +1,5 @@
 "use strict";
-// Casi Habilitado.
+// Caso Habilitado.
 let edad = 42;
 let esMayor = edad >= 18;
 let habilitado = esMayor ? "Si" : "No";
