@@ -15,7 +15,7 @@ console.log(frase.slice(0, indice1));
 
 // Encontrar el tamaño de la última palabra en un texto.
 let indice2 = frase.lastIndexOf(" ");
-console.log(frase.slice(indice2 + 1, longitudFrase));
+console.log(frase.slice(indice2 + 1, longitudFrase).length);
 
 // Encontrar el tamaño de la segunda palabra en un texto.
-console.log(frase.slice(indice1 + 1, indice2));
+console.log(frase.slice(indice1 + 1, indice2).length);
